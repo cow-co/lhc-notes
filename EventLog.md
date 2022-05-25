@@ -23,3 +23,5 @@
 |   21/05/2022  | Studies of MKI waveforms |
 |   22/05/2022  | Studies of BBLR interactions |
 |   23/05/2022  | Testing of TDI2 |
+|   24/05/2022  | Collisions in IPs 1, 2, 5, and maybe 8 |
+|   24/05/2022  | ADT Commissioning |

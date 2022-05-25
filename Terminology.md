@@ -2,6 +2,7 @@
 
 | Term | Meaning |
 |  --- |   ---   |
+| ADT | Transverse Damper. Damps transverse (hori/verti) oscillations in the beam, to try to keep it to the ideal trajectory. |
 | AFS | Active filling scheme. Describes (in an arcane manner) how exactly the particle batches are arranged in the beams |
 | AGK | Abort Gap Keeper. Ensures that the abort gap (the particle-free gap that ensures no losses are suffered during rise-time of the extraction magnets) is maintained |
 | BBLR | Beam-Beam Long-Range interactions. Electromagnetic interactions between the beams, arising because they share a vacuum cavity |
@@ -9,18 +10,23 @@
 | BIS | Beam interlock system. "[T]he backbone of the beam related protection" |
 | BLM | Beam loss monitor. Keeps an eye on the beam loss systems |
 | BPL | Beam Phase Loop. "[D]esigned to keep the bunches in the centre of the RF bucket" (Argyropoulos and Timko, *LHC Longitudinal Dynamics* (2020)) |
-| BRAN | Bean RAte of Neutrals - "monitor the energy deposited by electromagnetic showers produced by high-energy neutral particles from the collisions" (Matis *et al.*, *The BRAN luminosity detectors for the LHC" (2016)) |
+| BPM | Beam Position Monitor |
+| BRAN | Beam RAte of Neutrals - "monitor the energy deposited by electromagnetic showers produced by high-energy neutral particles from the collisions" (Matis *et al.*, *The BRAN luminosity detectors for the LHC" (2016)) |
 | IP/IR | Interaction point/Interaction region (P1: ATLAS (in between the beam injection sites), P2: ALICE, P5: CMS, P8: LHCb). Other points are P3: cleaning, P4: RF, P6: dump, P7: cleaning. |
+| LINAC | Linear Accelerator. Where protons for LHC are generated. |
 | LS | Long Shutdown |
-| MKD | Extraction kicker magnets |
+| MKD | Dump (extraction) kicker magnets |
 | MKI | Injection kicker magnets |
+| MSD | Dump (extraction) septum magnets |
 | P1 | Point 1 (where ATLAS is) |
 | PM | Post mortem |
 | PS (aka. CPS) | Proton Synchrotron |
+| PSB | Proton Synchrotron Booster (comes after the LINAC but before the PS) | 
 | QPS | Quench Protection System |
 | Quench | When the superconducting magnets rise in temperature to the point where they are no longer super-conducting (ie. they become resistive) |
 | S## | Sector ##. There are eight sectors in the LHC ring, named after the Points they run between (eg. S56 runs from P5 to P6 - ie. from CMS to beam dump point) |
 | SPS | Super Proton Synchrotron |
 | TDI | Target Dump Injection. Located at points 2 and 8. Protects the machine from off-trajectory beams injected from SPS. |
+| TI2/TI8 | Transfer injection lines at points 2 (beam 1) and 8 (beam 2) |
 | vdM Scan | van der Meer scan. Used for doing luminosity measurements |
 | YETS | Year-End Technical Stop |
