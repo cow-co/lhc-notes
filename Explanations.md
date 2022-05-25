@@ -34,3 +34,13 @@
 - The beam is then ramped up in intensity and energy, to a flat top
 - The beams are then squeezed to the required beta*
 - Collisions then commence
+
+## Active Filling Scheme Format
+
+`<# of injections>_<# of bunches per injection>_<# of collisions IP2?>_<# of collisions IP1/5?>_<# of collisions IP8?>_<remarks>`
+
+eg. `Single_42b_0_0_0_noHOnoLR` means
+- One injection
+- 42 bunches
+- No collisions at any of the IPs
+- No head-on, no long-range(?)

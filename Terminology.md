@@ -26,6 +26,7 @@
 | Quench | When the superconducting magnets rise in temperature to the point where they are no longer super-conducting (ie. they become resistive) |
 | S## | Sector ##. There are eight sectors in the LHC ring, named after the Points they run between (eg. S56 runs from P5 to P6 - ie. from CMS to beam dump point) |
 | SPS | Super Proton Synchrotron |
+| TDE | Target Dump External. The main beam dumps. |
 | TDI | Target Dump Injection. Located at points 2 and 8. Protects the machine from off-trajectory beams injected from SPS. |
 | TI2/TI8 | Transfer injection lines at points 2 (beam 1) and 8 (beam 2) |
 | vdM Scan | van der Meer scan. Used for doing luminosity measurements |
