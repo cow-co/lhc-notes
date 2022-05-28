@@ -12,7 +12,9 @@
 | BPL | Beam Phase Loop. "[D]esigned to keep the bunches in the centre of the RF bucket" (Argyropoulos and Timko, *LHC Longitudinal Dynamics* (2020)) |
 | BPM | Beam Position Monitor |
 | BRAN | Beam RAte of Neutrals - "monitor the energy deposited by electromagnetic showers produced by high-energy neutral particles from the collisions" (Matis *et al.*, *The BRAN luminosity detectors for the LHC" (2016)) |
+| Collimator | A large jaw made of tungsten or graphite, which capture stray particles |
 | IP/IR | Interaction point/Interaction region (P1: ATLAS (in between the beam injection sites), P2: ALICE, P5: CMS, P8: LHCb). Other points are P3: cleaning, P4: RF, P6: dump, P7: cleaning. |
+| LBDS | LHC Beam Dump System |
 | LINAC | Linear Accelerator. Where protons for LHC are generated. |
 | LS | Long Shutdown |
 | MKD | Dump (extraction) kicker magnets |
@@ -25,6 +27,8 @@
 | QPS | Quench Protection System |
 | Quench | When the superconducting magnets rise in temperature to the point where they are no longer super-conducting (ie. they become resistive) |
 | S## | Sector ##. There are eight sectors in the LHC ring, named after the Points they run between (eg. S56 runs from P5 to P6 - ie. from CMS to beam dump point) |
+| SBDS | SPS Beam Dump System |
+| Splash | A type of event that occurs when the beam is intentionally impacted against a collimator near a detector - often used for testing the detectors |
 | SPS | Super Proton Synchrotron |
 | TDE | Target Dump External. The main beam dumps. |
 | TDI | Target Dump Injection. Located at points 2 and 8. Protects the machine from off-trajectory beams injected from SPS. |
