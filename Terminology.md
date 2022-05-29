@@ -17,8 +17,11 @@
 | LBDS | LHC Beam Dump System |
 | LINAC | Linear Accelerator. Where protons for LHC are generated. |
 | LS | Long Shutdown |
+| MB | Main bending magnet |
 | MKD | Dump (extraction) kicker magnets |
 | MKI | Injection kicker magnets |
+| MQD | Main Defocusing Quadrupole magnet |
+| MQF | Main Focusing Quadrupole magnet | 
 | MSD | Dump (extraction) septum magnets |
 | P1 | Point 1 (where ATLAS is) |
 | PM | Post mortem |
@@ -26,6 +29,8 @@
 | PSB | Proton Synchrotron Booster (comes after the LINAC but before the PS) | 
 | QPS | Quench Protection System |
 | Quench | When the superconducting magnets rise in temperature to the point where they are no longer super-conducting (ie. they become resistive) |
+| Roman Pot | Measures the total cross-section of two beams |
+| RQF/RQD/RB | The circuits for MQF/MQD/MB, respectively. Seem to be named after the sector they run along (e.g. RB.A12 might run between P1 and P2) |
 | S## | Sector ##. There are eight sectors in the LHC ring, named after the Points they run between (eg. S56 runs from P5 to P6 - ie. from CMS to beam dump point) |
 | SBDS | SPS Beam Dump System |
 | Splash | A type of event that occurs when the beam is intentionally impacted against a collimator near a detector - often used for testing the detectors |
@@ -34,4 +39,5 @@
 | TDI | Target Dump Injection. Located at points 2 and 8. Protects the machine from off-trajectory beams injected from SPS. |
 | TI2/TI8 | Transfer injection lines at points 2 (beam 1) and 8 (beam 2) |
 | vdM Scan | van der Meer scan. Used for doing luminosity measurements |
+| XRP | Roman pot |
 | YETS | Year-End Technical Stop |

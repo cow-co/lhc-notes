@@ -5,7 +5,7 @@
 | Date and Time | Component | Remarks |
 |      ---      |    ---    |   ---   |
 |  16/05/2022?  |    ???    | Cryo Loss |
-|  18/05/2022?  |   RB.A12  | One of the circuits |
+|  18/05/2022?  |   RB.A12  | One of the circuits for the magnets |
 |  20/05/2022 1400Z  |   Pt4  | RF Access (ended around 1530Z) |
 |  21/05/2022 1145Z  |   P1  | Oxygen deficiency hazard alarm - fire brigade called |
 |  22/05/2022 1900Z  |   SPS  | Problem with injection from SPS for Beam 2 (CPS RF Cavities down?) |
@@ -16,6 +16,8 @@
 |  26/05/2022  | MSD | Glitch caused septum to trip, causing beam dump |
 |  26/05/2022 2200Z  | MSD | Glitch caused septum to trip, causing beam dump (for a second time) |
 |  27/05/2022 1545Z  | Dipole magnet | One of the dipoles quenched. |
+|  28/05/2022 1545Z  | BLM | Spurious reading caused beam dump |
+|  29/05/2022 2315Z  | RB.A23 | Quench. > six hours recovery expected! |
 
 ## General Milestones
 
