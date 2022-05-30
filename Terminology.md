@@ -13,10 +13,12 @@
 | BPM | Beam Position Monitor |
 | BRAN | Beam RAte of Neutrals - "monitor the energy deposited by electromagnetic showers produced by high-energy neutral particles from the collisions" (Matis *et al.*, *The BRAN luminosity detectors for the LHC" (2016)) |
 | Collimator | A large jaw made of tungsten or graphite, which capture stray particles |
+| DS[L or R] | Dispersion Suppressor [Left or Right] - part of the collimation system | 
 | IP/IR | Interaction point/Interaction region (P1: ATLAS (in between the beam injection sites), P2: ALICE, P5: CMS, P8: LHCb). Other points are P3: cleaning, P4: RF, P6: dump, P7: cleaning. |
 | LBDS | LHC Beam Dump System |
 | LINAC | Linear Accelerator. Where protons for LHC are generated. |
 | LS | Long Shutdown |
+| LSS | Long Straight Section - part of the machine; self-explanatory. IRs/Points lie within these. |
 | MB | Main bending magnet |
 | MKD | Dump (extraction) kicker magnets |
 | MKI | Injection kicker magnets |

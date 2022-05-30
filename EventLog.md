@@ -18,6 +18,7 @@
 |  27/05/2022 1545Z  | Dipole magnet | One of the dipoles quenched. |
 |  28/05/2022 1545Z  | BLM | Spurious reading caused beam dump |
 |  29/05/2022 2315Z  | RB.A23 | Quench. > six hours recovery expected! |
+|  30/05/2022 1700Z  | RB.A34 | Tripped (power converter issue?). Access required in P4 |
 
 ## General Milestones
 
@@ -32,3 +33,4 @@
 |   24/05/2022  | ADT Commissioning |
 |   26/05/2022  | First nominal bunch @ 6.8TeV for Run 3!!! |
 |   27/05/2022  | Stable Beams! @450GeV AFS: `Single_4b_2_2_2_noLR` |
+|   29 or 30/05/2022  | Collimator alignment |

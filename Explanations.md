@@ -44,3 +44,37 @@ eg. `Single_42b_0_0_0_noHOnoLR` means
 - 42 bunches
 - No collisions at any of the IPs
 - No head-on, no long-range(?)
+
+## Circuit Naming Convention
+
+- There are a lot of circuits in the LHC (thousands!)
+- But most of the ones you'll see mentioned follow a broad convention which can be summarised as
+
+`<circuit type>.<part of machine>.<optional subpart>`
+
+- For example: `RB.A78.UA83` means
+  - Main bending-dipole circuit - the `RB`
+  - Arc 78 (between points 7 and 8) - the `A78`
+  - Power converter in UA83 - the `UA83`
+- Reference: [The electrical circuits in the LHC reference database](https://cds.cern.ch/record/1069436)
+
+## Magnets, Arcs, LBBs, LSS, DSR, DSL, oh my!
+
+- The LHC comprises *eight arcs* and *eight long straights*
+- The machine is split into *eight quadrants*, which extend between arcs
+  - ie. An octant goes from halfway along one arc, to halfway along the next arc
+- The octant comprises:
+  - (half of) an arc
+  - A DSL (Dispersion Suppressor Left)
+  - An LSS (Long Straight Section)
+  - A DSR (Dispersion Suppressor Right)
+  - (half of) the next arc
+- Reference: [OPERATION OF THE LHC AT HIGH LUMINOSITY AND HIGH STORED ENERGY](https://cds.cern.ch/record/1459449?ln=en)
+- The arcs themselves comprise *23 cells* each.
+- Each cell comprises *two half-cells*
+- Each half-cell comprises:
+  - Three bending dipoles (the MBs)
+  - One quadrupole magnet (these alternate as focusing, then defocusing)
+  - Other correction magnets
+- Reference: [Study of dust-induced beam losses in the cryogenic arcs of the CERN Large Hadron
+Collider](https://cds.cern.ch/record/2798704?ln=en)
