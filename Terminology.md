@@ -13,6 +13,7 @@
 | BPM | Beam Position Monitor |
 | BRAN | Beam RAte of Neutrals - "monitor the energy deposited by electromagnetic showers produced by high-energy neutral particles from the collisions" (Matis *et al.*, *The BRAN luminosity detectors for the LHC" (2016)) |
 | Collimator | A large jaw made of tungsten or graphite, which capture stray particles |
+| Crystals | Bent crystals are used to clean the halos (off-trajectory particles) off the beams, by channeling the halo particles into the collimators |
 | DS[L or R] | Dispersion Suppressor [Left or Right] - part of the collimation system | 
 | IP/IR | Interaction point/Interaction region (P1: ATLAS (in between the beam injection sites), P2: ALICE, P5: CMS, P8: LHCb). Other points are P3: cleaning, P4: RF, P6: dump, P7: cleaning. |
 | LBDS | LHC Beam Dump System |
@@ -38,7 +39,7 @@
 | Splash | A type of event that occurs when the beam is intentionally impacted against a collimator near a detector - often used for testing the detectors |
 | SPS | Super Proton Synchrotron |
 | TDE | Target Dump External. The main beam dumps. |
-| TDI | Target Dump Injection. Located at points 2 and 8. Protects the machine from off-trajectory beams injected from SPS. |
+| TDI[S] | Target Dump Injection. Located at points 2 and 8. Protects the machine from off-trajectory beams injected from SPS. TDIS (S standing for "segmented") is an improved version, installed during LS2, designed for high lumi |
 | TI2/TI8 | Transfer injection lines at points 2 (beam 1) and 8 (beam 2) |
 | vdM Scan | van der Meer scan. Used for doing luminosity measurements |
 | XRP | Roman pot |
