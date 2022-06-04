@@ -26,6 +26,7 @@
 | MQD | Main Defocusing Quadrupole magnet |
 | MQF | Main Focusing Quadrupole magnet | 
 | MSD | Dump (extraction) septum magnets |
+| OMC | Optics Measurement and Corrections |
 | P1 | Point 1 (where ATLAS is) |
 | PM | Post mortem |
 | PS (aka. CPS) | Proton Synchrotron |
@@ -33,7 +34,7 @@
 | QPS | Quench Protection System |
 | Quench | When the superconducting magnets rise in temperature to the point where they are no longer super-conducting (ie. they become resistive) |
 | Roman Pot | Measures the total cross-section of two beams |
-| RQF/RQD/RB | The circuits for MQF/MQD/MB, respectively. Seem to be named after the sector they run along (e.g. RB.A12 might run between P1 and P2) |
+| RQF/RQD/RB | The circuits for MQF/MQD/MB, respectively. Named after the sector they run along (e.g. RB.A12 runs between P1 and P2) |
 | S## | Sector ##. There are eight sectors in the LHC ring, named after the Points they run between (eg. S56 runs from P5 to P6 - ie. from CMS to beam dump point) |
 | SBDS | SPS Beam Dump System |
 | Splash | A type of event that occurs when the beam is intentionally impacted against a collimator near a detector - often used for testing the detectors |

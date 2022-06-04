@@ -37,7 +37,7 @@
 
 ## Active Filling Scheme Format
 
-`<# of injections>_<# of bunches per injection>_<# of collisions IP2?>_<# of collisions IP1/5?>_<# of collisions IP8?>_<remarks>`
+`<# of injections>_<# of bunches per injection>_<# of collisions IP1/5>_<# of collisions IP2>_<# of collisions IP8>_<remarks>`
 
 eg. `Single_42b_0_0_0_noHOnoLR` means
 - One injection
