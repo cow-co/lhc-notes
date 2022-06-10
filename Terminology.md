@@ -39,6 +39,9 @@
 | SBDS | SPS Beam Dump System |
 | Splash | A type of event that occurs when the beam is intentionally impacted against a collimator near a detector - often used for testing the detectors |
 | SPS | Super Proton Synchrotron |
+| TCDQ | A graphite absorber ("diluter") block, placed in front of the Q4 magnet downstream of the beam dump in order to help protect against dumps that are not synced with the abort gap. Covers angles between the *TCS* and the *TCDS* |
+| TCDS | Diluter blocks placed in front of the series of *MSD* magnets along the beam dump, in order to protect the *MSD*s from mistimed kicks | 
+| TCS | A *collimator* placed downstream of the beam dump, in front of the Q4 magnet, to protect downstream components from slightly mistimed dump-kicks |
 | TDE | Target Dump External. The main beam dumps. |
 | TDI[S] | Target Dump Injection. Located at points 2 and 8. Protects the machine from off-trajectory beams injected from SPS. TDIS (S standing for "segmented") is an improved version, installed during LS2, designed for high lumi |
 | TI2/TI8 | Transfer injection lines at points 2 (beam 1) and 8 (beam 2) |

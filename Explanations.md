@@ -2,12 +2,12 @@
 
 ## Injections
 
-- The LHC beams originate in the LINACs (LINear ACcelerators)
+- The LHC beams originate in the *LINAC*s (LINear ACcelerators)
 - The beams cannot be continuous, since there must be gaps to allow kicker magnets (the magnets which transfer the beam from one line to another) to rise to full strength
 - Therefore, there is a bunch --> batch --> injection --> fill structure
-- The LINAC generates *bunches* of protons
-- The bunches are grouped into a *batch*. The bunches in a batch are separated by (now) 25ns, though it used to be 50ns - this is the rise time of the kickers from the LINAC to the PSB
-- The batches are then formed (with gaps between them of somewhere in the region of 250ns) into an injection, to the SPS
+- The *LINAC* generates *bunches* of protons
+- The bunches are grouped into a *batch*. The bunches in a batch are separated by (now) 25ns, though it used to be 50ns - this is the rise time of the kickers from the *LINAC* to the *PSB*
+- The batches are then formed (with gaps between them of somewhere in the region of 250ns) into an injection, to the *SPS*
 - The injections are then sent to the LHC, with gaps between them of about 900ns
 - If multiple fills are needed, then they must be separated by the abort gap (~3μs) 
 
@@ -16,8 +16,8 @@
 - The beams are highly energetic, and can generate intense radiation on impact with materials
 - As such, it is imperative that they can be stopped safely
 - This is the purpose of the beam dump system
-- Beam dump starts with MKDs kicking the beam out horizontally
-- The MSD then shifts the beam vertically
+- Beam dump starts with *MKD*s kicking the beam out horizontally
+- The *MSD* then shifts the beam vertically
 - The beam now goes through a series of horizontal and vertical magnets, which spin the beam out in an "e" shape
 - The beam width itself also widens
 - The beam travels through a roughly 600m-long straight tunnel
@@ -28,7 +28,7 @@
 
 ## Beam Setup Process
 
-- The process of setting up for a physics beam starts with SPS injections at 450GeV
+- The process of setting up for a physics beam starts with *SPS* injections at 450GeV
 - Pilot injections are used to verify things like collimators and so on
 - Once verified, a physics fill is injected
 - The beam is then ramped up in intensity and energy, to a flat top
@@ -42,7 +42,7 @@
 eg. `Single_42b_0_0_0_noHOnoLR` means
 - One injection
 - 42 bunches
-- No collisions at any of the IPs
+- No collisions at any of the *IP*s
 - No head-on, no long-range(?)
 
 ## Circuit Naming Convention
@@ -56,25 +56,21 @@ eg. `Single_42b_0_0_0_noHOnoLR` means
   - Main bending-dipole circuit - the `RB`
   - Arc 78 (between points 7 and 8) - the `A78`
   - Power converter in UA83 - the `UA83`
-- Reference: [The electrical circuits in the LHC reference database](https://cds.cern.ch/record/1069436)
 
 ## Magnets, Arcs, LBBs, LSS, DSR, DSL, oh my!
 
-- The LHC comprises *eight arcs* and *eight long straights*
-- The machine is split into *eight quadrants*, which extend between arcs
+- The LHC comprises eight arcs and eight long straights
+- The machine is split into eight quadrants, which extend between arcs
   - ie. An octant goes from halfway along one arc, to halfway along the next arc
 - The octant comprises:
   - (half of) an arc
-  - A DSL (Dispersion Suppressor Left)
-  - An LSS (Long Straight Section)
-  - A DSR (Dispersion Suppressor Right)
+  - A *DSL* (Dispersion Suppressor Left)
+  - An *LSS* (Long Straight Section)
+  - A *DSR* (Dispersion Suppressor Right)
   - (half of) the next arc
-- Reference: [OPERATION OF THE LHC AT HIGH LUMINOSITY AND HIGH STORED ENERGY](https://cds.cern.ch/record/1459449?ln=en)
-- The arcs themselves comprise *23 cells* each.
-- Each cell comprises *two half-cells*
+- The arcs themselves comprise 23 cells each.
+- Each cell comprises two half-cells
 - Each half-cell comprises:
-  - Three bending dipoles (the MBs)
+  - Three bending dipoles (the *MB*s)
   - One quadrupole magnet (these alternate as focusing, then defocusing)
   - Other correction magnets
-- Reference: [Study of dust-induced beam losses in the cryogenic arcs of the CERN Large Hadron
-Collider](https://cds.cern.ch/record/2798704?ln=en)

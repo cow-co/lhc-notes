@@ -23,6 +23,12 @@ Note: Italicised terms can be looked up in the [terminology](Terminology.md).
 |  30/05/2022 1700Z  | *RB.A34* | Tripped (power converter issue?). Access required in *P4* |
 |  02/06/2022 2200Z  | *CPS* | No beam coming in from *CPS* |
 |  03/06/2022 1445Z  | RF | (Unspecified) Problem with RF |
+|  06/06/2022 1200Z  | *S23* | *Quench* - 8 hours initial estimate to fix - fixed 08/06/2022 @ about 1600Z |
+|  06/06/2022 | RF | Cryo problem |
+|  08/06/2022 2030Z | *QPS* | Issue with *QPS* at A67 |
+|  08/06/2022 | *LINAC4* | RF issue |
+| 10/06/2022 | *LINAC4* | Another problem - with the cavities this time I think |
+| 10/06/2022 | *PSB* | "POPS-B down again" - POPSB is a pair of power converters ([See further](https://indico.cern.ch/event/923215/)) |
 
 ## General Milestones
 
@@ -42,3 +48,4 @@ Note: Italicised terms can be looked up in the [terminology](Terminology.md).
 |   02/06/2022-03/06/2022 | *Collimating crystals* |
 |   03/06/2022  | More Stable Beams @450GeV *AFS*: `Single_4b_2_2_2_noLR` |
 |   04/06/2022  | *OMC* measurements pretty much all afternoon, and into the morning of the 5th |
+| 10/06/2022 | *TDIS* and *TCDQ* calibration-type work |
