@@ -37,10 +37,12 @@
 | RQF/RQD/RB | The circuits for MQF/MQD/MB, respectively. Named after the sector they run along (e.g. RB.A12 runs between P1 and P2) |
 | S## | Sector ##. There are eight sectors in the LHC ring, named after the Points they run between (eg. S56 runs from P5 to P6 - ie. from CMS to beam dump point) |
 | SBDS | SPS Beam Dump System |
+| Scrubbing | A process by which bunches are circulated in order to clean out "loose" electrons from the vacuum line |
 | Splash | A type of event that occurs when the beam is intentionally impacted against a collimator near a detector - often used for testing the detectors |
 | SPS | Super Proton Synchrotron |
 | TCDQ | A graphite absorber ("diluter") block, placed in front of the Q4 magnet downstream of the beam dump in order to help protect against dumps that are not synced with the abort gap. Covers angles between the *TCS* and the *TCDS* |
 | TCDS | Diluter blocks placed in front of the series of *MSD* magnets along the beam dump, in order to protect the *MSD*s from mistimed kicks | 
+| TCLI[A/B] | Auxiliary injection collimators |
 | TCS | A *collimator* placed downstream of the beam dump, in front of the Q4 magnet, to protect downstream components from slightly mistimed dump-kicks |
 | TDE | Target Dump External. The main beam dumps. |
 | TDI[S] | Target Dump Injection. Located at points 2 and 8. Protects the machine from off-trajectory beams injected from SPS. TDIS (S standing for "segmented") is an improved version, installed during LS2, designed for high lumi |

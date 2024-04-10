@@ -12,3 +12,4 @@
 | [Study of dust-induced beam losses in the cryogenic arcs of the CERN Large Hadron Collider](https://cds.cern.ch/record/2798704?ln=en) | Arcs and cells etc |
 | [OPERATION OF THE LHC AT HIGH LUMINOSITY AND HIGH STORED ENERGY](https://cds.cern.ch/record/1459449?ln=en) | Arcs, sectors, octants, etc |
 | [The electrical circuits in the LHC reference database](https://cds.cern.ch/record/1069436) | Circuits |
+| [Injection and Dumping Systems](https://arxiv.org/ftp/arxiv/papers/1705/1705.09502.pdf) | Injection/Dump |

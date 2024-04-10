@@ -29,6 +29,14 @@ Note: Italicised terms can be looked up in the [terminology](Terminology.md).
 |  08/06/2022 | *LINAC4* | RF issue |
 | 10/06/2022 | *LINAC4* | Another problem - with the cavities this time I think |
 | 10/06/2022 | *PSB* | "POPS-B down again" - POPSB is a pair of power converters ([See further](https://indico.cern.ch/event/923215/)) |
+| 13/06/2022 | *ROD.A67B2* | Issue requiring access in *Pt6* |
+| 14/06/2022 | *IR7* | Losses at *IR7* during loading of 48b in *B2* caused a beam dump |
+| 22/06/2022 | *RQF.A81* | Energy extraction issue - fault in the free wheel diode in the power converter? |
+| 22/06/2022 | *TI8* | Magnet problem |
+| 22/06/2022 | *S81* | Issue with main quadrupoles |
+| 22/06/2022 | *SPS* | Mains tripped |
+| 23/06/2022 | *RB.A23* | Energy extraction issue |
+| 30/06/2022 | RCBXV2.R8 | Some kind of issue |
 
 ## General Milestones
 
@@ -49,3 +57,9 @@ Note: Italicised terms can be looked up in the [terminology](Terminology.md).
 |   03/06/2022  | More Stable Beams @450GeV *AFS*: `Single_4b_2_2_2_noLR` |
 |   04/06/2022  | *OMC* measurements pretty much all afternoon, and into the morning of the 5th |
 | 10/06/2022 | *TDIS* and *TCDQ* calibration-type work |
+| 12/06/2022 | Lossmaps |
+| 13/06/2022 | Lossmaps and collimator validation at injection |
+| 14/06/2022 | 12, 24, and 48 bunch trains! |
+| 14/06/2022 | *Scrubbing* commences - one of the last steps before "go-live" |
+| 16/06/2022 | TCLI checks @ injection |
+| 05/07/2022 | First stable beams @ 6.8TeV! |

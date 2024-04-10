@@ -37,13 +37,26 @@
 
 ## Active Filling Scheme Format
 
-`<# of injections>_<# of bunches per injection>_<# of collisions IP1/5>_<# of collisions IP2>_<# of collisions IP8>_<remarks>`
+`<bunch spacing>_<total bunches per beam>_<collisions at IP1/5>_<collisions at IP2>_<collisions at IP8>_<max bunches per injection>_<remarks>`
 
-eg. `Single_42b_0_0_0_noHOnoLR` means
-- One injection
-- 42 bunches
-- No collisions at any of the *IP*s
-- No head-on, no long-range(?)
+eg. `25ns_399b_386_266_278_48bpi_12inj_3INDIVs` means
+- 25 ns bunch spacing
+- 399 bunches total (per beam)
+- IP1 and 5 get 386 collisions
+- IP2 gets 266 collisions
+- IP8 gets 278 collisions
+- Maximum 48 bunches per injection
+- 3 "individual" (ie. single-bunch) injections.
+
+often, the first injection has 12 bunches rather than the full BPI, so the total bunches is usually something like
+
+`(n - i - 1) * b + i + 12` 
+
+where `n` is the number of injections, `i` is the number of INDIVs, and `b` is the listed max BPI. So in the above case:
+
+`(12 - 3 - 1) * 48 + 3 + 12 = 399`
+
+Newer VISTARS setup allows you to see the injection/bunch counts as they go in. Which is neat.
 
 ## Circuit Naming Convention
 
