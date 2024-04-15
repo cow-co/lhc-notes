@@ -25,6 +25,7 @@
 - The impact point heats to between 1000-1500 Celsius (depending on which Run we're looking at)
 - People aren't allowed in, because of the immense radiation generated, but if they were then they'd hear a very loud bang/bell noise of the rapid thermal expansion/contraction of the dump target materials
 - The dump targets have become so radioactive that, instead of removing them to be replaced, the LHC engineers are simply using the spares as the new HL-LHC dump targets and leaving the old ones be 
+- [Good reference](https://indico.cern.ch/event/9340/contributions/2121716/attachments/1102551/1572825/PM_workshop_-_Beam_dump_XPOC.pdf)
 
 ## Beam Setup Process
 
@@ -48,7 +49,7 @@ eg. `25ns_399b_386_266_278_48bpi_12inj_3INDIVs` means
 - Maximum 48 bunches per injection
 - 3 "individual" (ie. single-bunch) injections.
 
-often, the first injection has 12 bunches rather than the full BPI, so the total bunches is usually something like
+Generally, the first injection has 12 bunches rather than the full BPI, so the total bunches is usually something like
 
 `(n - i - 1) * b + i + 12` 
 
@@ -57,6 +58,14 @@ where `n` is the number of injections, `i` is the number of INDIVs, and `b` is t
 `(12 - 3 - 1) * 48 + 3 + 12 = 399`
 
 Newer VISTARS setup allows you to see the injection/bunch counts as they go in. Which is neat.
+
+Excellent source for filling schemes and associated info is the [CERN LPC site](https://lpc.web.cern.ch), which has an [AFS viewer](https://lpc.web.cern.ch/cgi-bin/filling_schemes.py) and a [filling scheme editor](https://lpc.web.cern.ch/schemeEditor.html). The latter has a ton of info on how the fills are constructed: eg. "**pp physics:** A train of 12b (not colliding in IP1&5) is inserted at the beginning of the orbit (to steer the beams in the transfer lines)", which explains the above observation about the first injection on normal fills. Some other key points:
+
+- Filling-scheme algorithm prioritises getting all bunches (after the 12b initial steering injection) to collide in IP1&5
+- Its second priority is maximising collisions in IP8
+- Maximal filling beyond this must be done by hand
+
+To grab a JSON-formatted representation of a filling scheme, go to the [filling scheme editor](https://lpc.web.cern.ch/schemeEditor.html), enter `lpc` as the username, then click load, select from the tree structure, click save, select save locally, and you're sorted. Then you can use the python script in the `scripts` folder of this repo to view the filling.
 
 ## Circuit Naming Convention
 
@@ -87,3 +96,10 @@ Newer VISTARS setup allows you to see the injection/bunch counts as they go in. 
   - Three bending dipoles (the *MB*s)
   - One quadrupole magnet (these alternate as focusing, then defocusing)
   - Other correction magnets
+
+## Scrubbing
+
+- The LHC beamlines are not perfect vacuums
+- The air molecules within can cause issues, since the protons will ionise those molecules, and the free electrons proceed to cause heating and pressure increases in the machine
+- By sending low-energy protons through before a full-intensity run, they clean out the contaminants (leaving just inert graphite sticking to the machine walls)
+- This is called "scrubbing"

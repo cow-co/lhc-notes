@@ -63,3 +63,4 @@ Note: Italicised terms can be looked up in the [terminology](Terminology.md).
 | 14/06/2022 | *Scrubbing* commences - one of the last steps before "go-live" |
 | 16/06/2022 | TCLI checks @ injection |
 | 05/07/2022 | First stable beams @ 6.8TeV! |
+| 11/04/2024 | Machine full for first time in 2024 |
